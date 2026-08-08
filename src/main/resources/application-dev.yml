@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+library:
+  name: Library Development
+  max-books: 50
+  admin: Mostafa

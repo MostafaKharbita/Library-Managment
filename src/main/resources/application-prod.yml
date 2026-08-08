@@ -1,0 +1,7 @@
+server:
+  port: 9090
+
+library:
+  name: Library Production
+  max-books: 500
+  admin: Admin
