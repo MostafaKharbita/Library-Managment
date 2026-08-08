@@ -6,15 +6,17 @@ public class Book {
     private String title;
     private String author;
     private String category;
+    private boolean available;
 
     public Book() {
     }
 
-    public Book(Long id, String title, String author, String category) {
+    public Book(Long id, String title, String author, String category , boolean available) {
         this.id = id;
         this.title = title;
         this.author = author;
         this.category = category;
+        this.available = available;
     }
 
     public Long getId() {
@@ -47,5 +49,13 @@ public class Book {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
 }
